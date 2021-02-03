@@ -1,0 +1,79 @@
+.header {
+    background-color: #64ED95;
+    text-align: center;
+    font-weight: bold;
+    /* font-family: fantasy; */
+    font-family: 'Brush Script MT', cursive;
+    font-size: 115%;
+    text-align: center;
+    font-weight: 900;
+   
+}
+
+h1 {
+    
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+ .title {
+    font-weight: bold;
+    text-align: center;
+    /* font-family: fantasy; */
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+  } 
+
+body {
+    font-family: Georgia;
+    background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+    text-align: center;
+
+}
+.middle {
+    text-align: center;
+    font-weight: 900;
+    
+}
+ul {
+
+    list-style-type: none;
+
+}
+
+
+img {
+    border-radius:50%;
+}
+
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 33%;
+
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+
+    border-radius: 25px;
+
+    color:#ff0000;
+    color:#0000ff;
+    font-size:150%;
+
+  }
+
+.btn a {
+    text-decoration: none;
+    font-weight: 900;
+}
