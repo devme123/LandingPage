@@ -75,5 +75,8 @@ img {
 
 .btn a {
     text-decoration: none;
+    border-bottom: 5px solid black;
     font-weight: 900;
+    text-align: center; 
+    line-height: 65px;
 }
