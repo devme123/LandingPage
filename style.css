@@ -1,88 +1,77 @@
-.header {
-    background-color: #64ED95;
-    text-align: center;
-    font-weight: bold;
-    /* font-family: fantasy; */
-    font-family: 'Brush Script MT', cursive;
-    font-size: 115%;
-    text-align: center;
-    font-weight: 900;
-   
+.box {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
 
-h1 {
-    
-    text-align: center;
-    color: rgb(255, 255, 255);
+.gradient {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 45deg, #09658a, #727400, #86325a, #350349, #420101);
+    background-size: 600% 100%;
+    animation: gradient 10s linear infinite;
+    animation-direction: alternate;
 }
 
- .title {
-    font-weight: bold;
-    text-align: center;
-    /* font-family: fantasy; */
-    font-family: 'Brush Script MT', cursive;
-    text-align: center;
-  } 
-
-body {
-    font-family: Georgia;
-    background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
-    text-align: center;
-
-}
-.middle {
-    text-align: center;
-    font-weight: 900;
-    
-    
-}
-ul {
-
-    list-style-type: none;
-
+@keyframes gradient {
+    0% {
+        background-position: 0%
+    }
+    100% {
+        background-position: 100%
+    }
 }
 
-
-img {
-    border-radius:50%;
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 0px;
 }
 
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-100.ttf);
+}
 
-.btn {
-    background-color: #4CAF50; /* Green */
-    border: none;
+.text {
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 33%;
-
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-
-    border-radius: 25px;
-
-    color:#ff0000;
-    color:#0000ff;
-    font-size:150%;
-
-  }
-
-.btn a {
-    text-decoration: none;
-    border-bottom: 5px solid black;
-    font-weight: 900;
-    text-align: center; 
-    line-height: 65px;
+    font-family: Raleway;
+    font-size: 26px;
 }
 
-hr {
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+
+
+/* body {
+    background-color: #FF5A5A;
+    height: 100%;
+    font-family: 'tradegothiclt-bold', sans-serif;
+  } */
+  
+    p {
+    /* font-size: 5em; */
+    color: white;
+    /* text-transform: uppercase; */
+  }
+  
+  span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
   }
